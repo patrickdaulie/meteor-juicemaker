@@ -1,0 +1,441 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os.osx.x86_64",
+  "load": [
+    {
+      "sourceMap": "packages/underscore.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/underscore.js"
+    },
+    {
+      "node_modules": "npm/meteor/node_modules",
+      "sourceMap": "packages/meteor.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor.js"
+    },
+    {
+      "sourceMap": "packages/reload.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reload.js"
+    },
+    {
+      "sourceMap": "packages/json.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/json.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ejson.js"
+    },
+    {
+      "node_modules": "npm/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/logging.js"
+    },
+    {
+      "sourceMap": "packages/routepolicy.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "sourceMap": "packages/tracker.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/tracker.js"
+    },
+    {
+      "sourceMap": "packages/deps.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/deps.js"
+    },
+    {
+      "sourceMap": "packages/htmljs.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/htmljs.js"
+    },
+    {
+      "sourceMap": "packages/html-tools.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/html-tools.js"
+    },
+    {
+      "sourceMap": "packages/blaze-tools.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/blaze-tools.js"
+    },
+    {
+      "sourceMap": "packages/spacebars-compiler.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/spacebars-compiler.js"
+    },
+    {
+      "sourceMap": "packages/jquery.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/jquery.js"
+    },
+    {
+      "sourceMap": "packages/id-map.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/id-map.js"
+    },
+    {
+      "sourceMap": "packages/ordered-dict.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/random.js"
+    },
+    {
+      "sourceMap": "packages/geojson-utils.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "sourceMap": "packages/observe-sequence.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/observe-sequence.js"
+    },
+    {
+      "sourceMap": "packages/reactive-var.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reactive-var.js"
+    },
+    {
+      "sourceMap": "packages/blaze.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/blaze.js"
+    },
+    {
+      "sourceMap": "packages/templating.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/templating.js"
+    },
+    {
+      "sourceMap": "packages/spacebars.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/spacebars.js"
+    },
+    {
+      "sourceMap": "packages/ui.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ui.js"
+    },
+    {
+      "sourceMap": "packages/boilerplate-generator.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/boilerplate-generator.js",
+      "assets": {
+        "boilerplate_web.browser.html": "assets/packages/boilerplate-generator/boilerplate_web.browser.html",
+        "boilerplate_web.cordova.html": "assets/packages/boilerplate-generator/boilerplate_web.cordova.html"
+      }
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/webapp.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/check.js"
+    },
+    {
+      "sourceMap": "packages/retry.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/retry.js"
+    },
+    {
+      "sourceMap": "packages/callback-hook.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "node_modules": "npm/ddp/node_modules",
+      "sourceMap": "packages/ddp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ddp.js"
+    },
+    {
+      "sourceMap": "packages/binary-heap.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "node_modules": "npm/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mongo.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "sourceMap": "packages/meteor-platform.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor-platform.js"
+    },
+    {
+      "sourceMap": "packages/iron_core.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_core.js"
+    },
+    {
+      "sourceMap": "packages/iron_dynamic-template.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_dynamic-template.js",
+      "assets": {
+        "dynamic_template.html": "assets/packages/iron_dynamic-template/dynamic_template.html"
+      }
+    },
+    {
+      "sourceMap": "packages/iron_layout.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_layout.js",
+      "assets": {
+        "default_layout.html": "assets/packages/iron_layout/default_layout.html"
+      }
+    },
+    {
+      "sourceMap": "packages/iron_url.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_url.js"
+    },
+    {
+      "sourceMap": "packages/iron_middleware-stack.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_middleware-stack.js"
+    },
+    {
+      "sourceMap": "packages/iron_location.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_location.js"
+    },
+    {
+      "sourceMap": "packages/reactive-dict.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reactive-dict.js"
+    },
+    {
+      "sourceMap": "packages/iron_controller.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_controller.js"
+    },
+    {
+      "node_modules": "npm/iron_router/node_modules",
+      "sourceMap": "packages/iron_router.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_router.js",
+      "assets": {
+        "lib/templates.html": "assets/packages/iron_router/lib/templates.html"
+      }
+    },
+    {
+      "node_modules": "npm/aldeed_simple-schema/node_modules",
+      "sourceMap": "packages/aldeed_simple-schema.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/aldeed_simple-schema.js"
+    },
+    {
+      "sourceMap": "packages/aldeed_collection2.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/aldeed_collection2.js"
+    },
+    {
+      "sourceMap": "packages/aldeed_autoform.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/aldeed_autoform.js"
+    },
+    {
+      "node_modules": "npm/sacha_spin/node_modules",
+      "sourceMap": "packages/sacha_spin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/sacha_spin.js"
+    },
+    {
+      "node_modules": "npm/npm-bcrypt/node_modules",
+      "sourceMap": "packages/npm-bcrypt.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "sourceMap": "packages/sha.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/sha.js"
+    },
+    {
+      "sourceMap": "packages/srp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "npm/email/node_modules",
+      "sourceMap": "packages/email.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "sourceMap": "packages/ian_accounts-ui-bootstrap-3.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ian_accounts-ui-bootstrap-3.js"
+    },
+    {
+      "sourceMap": "packages/fourseven_scss.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/fourseven_scss.js"
+    },
+    {
+      "sourceMap": "packages/reywood_bootstrap3-sass.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reywood_bootstrap3-sass.js",
+      "assets": {
+        "_bootstrap.scss": "assets/packages/reywood_bootstrap3-sass/_bootstrap.scss",
+        "assets/stylesheets/bootstrap/_alerts.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_alerts.scss",
+        "assets/stylesheets/bootstrap/_badges.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_badges.scss",
+        "assets/stylesheets/bootstrap/_breadcrumbs.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss",
+        "assets/stylesheets/bootstrap/_button-groups.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_button-groups.scss",
+        "assets/stylesheets/bootstrap/_buttons.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_buttons.scss",
+        "assets/stylesheets/bootstrap/_carousel.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_carousel.scss",
+        "assets/stylesheets/bootstrap/_close.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_close.scss",
+        "assets/stylesheets/bootstrap/_code.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_code.scss",
+        "assets/stylesheets/bootstrap/_component-animations.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_component-animations.scss",
+        "assets/stylesheets/bootstrap/_dropdowns.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_dropdowns.scss",
+        "assets/stylesheets/bootstrap/_forms.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_forms.scss",
+        "assets/stylesheets/bootstrap/_glyphicons.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_glyphicons.scss",
+        "assets/stylesheets/bootstrap/_grid.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_grid.scss",
+        "assets/stylesheets/bootstrap/_input-groups.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_input-groups.scss",
+        "assets/stylesheets/bootstrap/_jumbotron.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_jumbotron.scss",
+        "assets/stylesheets/bootstrap/_labels.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_labels.scss",
+        "assets/stylesheets/bootstrap/_list-group.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_list-group.scss",
+        "assets/stylesheets/bootstrap/_media.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_media.scss",
+        "assets/stylesheets/bootstrap/_mixins.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_mixins.scss",
+        "assets/stylesheets/bootstrap/_modals.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_modals.scss",
+        "assets/stylesheets/bootstrap/_navbar.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_navbar.scss",
+        "assets/stylesheets/bootstrap/_navs.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_navs.scss",
+        "assets/stylesheets/bootstrap/_normalize.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_normalize.scss",
+        "assets/stylesheets/bootstrap/_pager.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_pager.scss",
+        "assets/stylesheets/bootstrap/_pagination.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_pagination.scss",
+        "assets/stylesheets/bootstrap/_panels.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_panels.scss",
+        "assets/stylesheets/bootstrap/_popovers.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_popovers.scss",
+        "assets/stylesheets/bootstrap/_print.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_print.scss",
+        "assets/stylesheets/bootstrap/_progress-bars.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_progress-bars.scss",
+        "assets/stylesheets/bootstrap/_responsive-embed.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_responsive-embed.scss",
+        "assets/stylesheets/bootstrap/_responsive-utilities.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss",
+        "assets/stylesheets/bootstrap/_scaffolding.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_scaffolding.scss",
+        "assets/stylesheets/bootstrap/_tables.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_tables.scss",
+        "assets/stylesheets/bootstrap/_theme.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_theme.scss",
+        "assets/stylesheets/bootstrap/_thumbnails.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_thumbnails.scss",
+        "assets/stylesheets/bootstrap/_tooltip.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_tooltip.scss",
+        "assets/stylesheets/bootstrap/_type.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_type.scss",
+        "assets/stylesheets/bootstrap/_utilities.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_utilities.scss",
+        "assets/stylesheets/bootstrap/_variables.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_variables.scss",
+        "assets/stylesheets/bootstrap/_wells.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/_wells.scss",
+        "assets/stylesheets/bootstrap/mixins/_alerts.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss",
+        "assets/stylesheets/bootstrap/mixins/_background-variant.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss",
+        "assets/stylesheets/bootstrap/mixins/_border-radius.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss",
+        "assets/stylesheets/bootstrap/mixins/_buttons.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss",
+        "assets/stylesheets/bootstrap/mixins/_center-block.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss",
+        "assets/stylesheets/bootstrap/mixins/_clearfix.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss",
+        "assets/stylesheets/bootstrap/mixins/_forms.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_forms.scss",
+        "assets/stylesheets/bootstrap/mixins/_gradients.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss",
+        "assets/stylesheets/bootstrap/mixins/_grid-framework.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss",
+        "assets/stylesheets/bootstrap/mixins/_grid.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_grid.scss",
+        "assets/stylesheets/bootstrap/mixins/_hide-text.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss",
+        "assets/stylesheets/bootstrap/mixins/_image.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_image.scss",
+        "assets/stylesheets/bootstrap/mixins/_labels.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_labels.scss",
+        "assets/stylesheets/bootstrap/mixins/_list-group.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss",
+        "assets/stylesheets/bootstrap/mixins/_nav-divider.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss",
+        "assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss",
+        "assets/stylesheets/bootstrap/mixins/_opacity.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss",
+        "assets/stylesheets/bootstrap/mixins/_pagination.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss",
+        "assets/stylesheets/bootstrap/mixins/_panels.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_panels.scss",
+        "assets/stylesheets/bootstrap/mixins/_progress-bar.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss",
+        "assets/stylesheets/bootstrap/mixins/_reset-filter.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss",
+        "assets/stylesheets/bootstrap/mixins/_resize.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_resize.scss",
+        "assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss",
+        "assets/stylesheets/bootstrap/mixins/_size.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_size.scss",
+        "assets/stylesheets/bootstrap/mixins/_tab-focus.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss",
+        "assets/stylesheets/bootstrap/mixins/_table-row.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss",
+        "assets/stylesheets/bootstrap/mixins/_text-emphasis.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss",
+        "assets/stylesheets/bootstrap/mixins/_text-overflow.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss",
+        "assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss": "assets/packages/reywood_bootstrap3-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss"
+      }
+    },
+    {
+      "sourceMap": "packages/session.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/session.js"
+    },
+    {
+      "sourceMap": "packages/livedata.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/livedata.js"
+    },
+    {
+      "path": "packages/global-imports.js"
+    },
+    {
+      "path": "app/lib/collections/schemas/posts.js"
+    },
+    {
+      "path": "app/lib/collections/posts.js"
+    },
+    {
+      "path": "app/lib/controllers/base.js"
+    },
+    {
+      "path": "app/lib/controllers/main_page.js"
+    },
+    {
+      "path": "app/lib/controllers/new_post.js"
+    },
+    {
+      "path": "app/lib/controllers/single_post.js"
+    },
+    {
+      "path": "app/lib/methods/posts.js"
+    },
+    {
+      "path": "app/lib/router.js"
+    },
+    {
+      "path": "app/server/publications.js"
+    },
+    {
+      "sourceMap": "packages/service-configuration.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/service-configuration.js"
+    }
+  ]
+}
