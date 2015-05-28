@@ -1,9 +1,9 @@
 <template name="mainLayout">
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default-custom">
     <div class="container">
       <div class="navbar-header">
         {{#linkTo route='root' class='navbar-brand'}}
-          Tutorial blog
+          MyJuice
         {{/linkTo}}
       </div>
       <ul class="nav navbar-nav">
@@ -15,6 +15,11 @@
         <li>
           {{#linkTo route='newPost'}}
             Add new post
+          {{/linkTo}}
+        </li>
+        <li>
+          {{#linkTo route='contactPage'}}
+            Contact
           {{/linkTo}}
         </li>
       </ul>

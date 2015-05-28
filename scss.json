@@ -1,0 +1,10 @@
+{
+  "includePaths": [
+    "packages/stylish/client",
+    "packages/stylish/client/bootstrap",
+    "packages/stylish/client/bootstrap/scss",
+    "packages/stylish/client/styles",
+    "packages/stylish/client/bootstrap",
+    "packages/stylish/client/third-party-overrides"
+  ]
+}

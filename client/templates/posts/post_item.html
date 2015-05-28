@@ -1,0 +1,10 @@
+<template name="postItem">
+  <h3>
+    {{#linkTo route='singlePost'}}
+      {{title}}
+    {{/linkTo}}
+  </h3>
+    {{> upload_bootstrap contentType='images' fileTypes='.jpg' multiple=true }}
+     <p>Drag and drop image on the target area</p>
+    {{> dropzone contentType='images' fileTypes='.jpg' multiple=true formData=specificFormData }}
+</template>
