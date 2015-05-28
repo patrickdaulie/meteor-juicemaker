@@ -5,3 +5,7 @@ Meteor.publish('allPosts', function(){
 Meteor.publish('singlePost', function(id){
   return Posts.find(id);
 });
+
+Meteor.publish('images', function(){
+    return Images.find();
+});

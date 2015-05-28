@@ -2,5 +2,10 @@
   <h2>{{title}}</h2>
   <p>{{body}}</p>
   <p>by {{author}}</p>
+  <p>
+	  {{#each profilePic}}
+     <img alt="{{this.name}}" src="{{this.url}}">
+{{/each}}
+  </p>
   {{>shareit}}
 </template>
